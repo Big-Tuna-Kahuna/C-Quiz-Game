@@ -1,34 +1,3 @@
-/*=====================================================================
-Program: Quiz Game Lab 1
-Author: Gabriel Deluna
-Class: CS2308.004 Foundations of Computer Science II
-Instructor: Dr. Ziliang Zong
-Date Due: 09-26-19/ Date completed: 09-24-19
-Description: This is a quiz program that reads in a group of questions and
-	answers and stores them in arrays. The user will answer the questions
-	and will get a score depending on how many they get right. This score
-	will be available at the end of the game and will show historic scores
-	of past play-throughs. The program can handle up to 50 questions and
-	answers. No question is repeated during one play-through. The questions
-	are selected at random.
-Input: Files to be included is an answer and a question file in standard txt
-	format. The question file must have four answer choices right after a
-	question.
-	The spaces in between the question blocks do not matter.
-Output: Outputs a txt file called summary. Holds all the historical scores
-	for each player. This file is then sorted and displayed to show highscores.
-Compilation instructions: the question file and answer file must be included
-	on the command line when executing this program from a command prompt.
-	Failure to do so will result in termination of the program.
-Usage: User will simply enter player name and follow the prompts to answer the
-	questions. At the end, the user will be given their score and asked whether
-	they want to play another game.
-Modifications: N/A
-Date Comment: 09/25/19
-======================================================================*/
-
-
-
 #include <iostream>
 #include <iomanip>
 #include <fstream>
